@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+</head>
+
+<body>
+    <div id="main" class="p-3 pt-1 lg:pt-1 lg:p-6">
+        <nav
+            class="w-full flex sticky top-0 z-10 justify-between bg-gradient-to-tl from-green-100 to-blue-200 p-4 rounded-3xl items-center md:p-6 lg:p-8">
+            <div
+                class="logo flex text-lg font-medium justify-between items-center gap-10 md:text-sm md:gap-4 lg:text-lg lg:gap-10">
+                <h2 class="text-2xl font-semibold md:text-xl lg:text-2xl"><a href="#"><i class="ri-exchange-2-fill"></i>
+                        Craze</a></h2>
+                <h4 class="hidden md:block lg:block"><a href="#">Collaboration</a></h4>
+                <h4 class="hidden md:block lg:block"><a href="#">Coming soon</a></h4>
+                <h4 class="hidden md:block lg:block"><a href="#">Discount</a></h4>
+                <h4 class="hidden md:block lg:block"><a href="#">Reviews</a></h4>
+            </div>
+            <div class="btn flex justify-between hidden items-center gap-8 md:flex lg:flex">
+                <!-- <h4><input placeholder="Search" class="bg-transparent border border-4 border-solid border-black text-white px-1 py-2 rounded-full" type="text"><i class="ri-search-line text-xl -ms-8"></i></h4> -->
+                <i class="ri-search-line text-xl text-md text-slate-400 -mr-16"></i>
+                <h4><input
+                        class="placeholder:italic placeholder:text-slate-400 block bg-transparent w-full border border-slate-400 rounded-md py-2 pl-12 pr-3 shadow-sm focus:outline-none focus:border-violet-200 focus:ring-sky-500 focus:ring-1 sm:text-sm md:text-xs lg:text-sm"
+                        placeholder="Search for anything..." type="text" name="search" /></h4>
+                <h4 class="bg-black text-white font-medium px-3 py-2 rounded-full"><a href="#"><i
+                            class="ri-shopping-bag-line text-lg md:text-sm lg:text-lg"></i></a></i></h4>
+            </div>
+            <i class="ri-menu-3-line text-2xl md:text-lg md:hidden lg:text-2xl lg:hidden"></i>
+        </nav>
+
+        <header class="w-full h-screen relative flex flex-col gap-2 mt-4 lg:mt-4 md:gap-14 lg:gap-14">
+            <h2
+                class="flex justify-center items-center text-center tracking-tighter leading-10 h-1/6 text-3xl font-semibold md:text-4xl md:font-bold md:text-gray-800 md:leading-tight md:mt-10 lg:mt-8 lg:leading-tight lg:text-6xl lg:font-bold lg:text-gray-800">
+                Your Shopping Destination <br> for Online Fashion</h2>
+            <img class="w-full opacity-90 rounded-3xl h-5/6 object-cover object-top md:hidden lg:hidden"
+                src="https://i.pinimg.com/564x/eb/b6/7e/ebb67eaa0d380249978d690bd365da2a.jpg" alt="boy$girl_img">
+            <img class="w-full opacity-90 rounded-3xl hidden h-5/6 object-cover object-center md:block md:h-full lg:h-4/5 lg:block"
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="woman_img">
+            <div
+                class="absolute bottom-6 right-2 flex flex-col gap-4 md:flex-row md:justify-start md:items-start md:-bottom-32 md:left-2 lg:flex-row lg:-bottom-10 lg:left-4">
+                <button
+                    class="bg-black text-white px-4 py-3 rounded-full text-xs font-semibold md:text-xs md:px-4 md:y-3 lg:text-sm lg:px-6">Buy
+                    this
+                    product <span class="hidden md:inline-block lg:inline-block">just like this 👆</span></button>
+                <button
+                    class="bg-white text-black px-4 py-3 rounded-full text-xs font-semibold md:text-xs md:px-4 md:y-3 lg:text-sm lg:px-6">Top
+                    collections</button>
+            </div>
+        </header>
+
+        <div
+            class="page2 w-full h-100 flex flex-col gap-6 md:h-screen mt-14 md:mt-48 md:gap-0 md:gap-8 lg:h-screen lg:mt-36 lg:gap-10">
+            <div
+                class="w-full top flex flex-col gap-4 text-center justify-center items-center md:gap-2 lg:p-4 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
+                <h3 class=" text-3xl font-semibold lg:w-2/6 lg:text-left lg:font-bold lg:text-5xl">Summer Palliate</h3>
+                <p class="flex justify-start items-center p-2 lg:w-4/6 lg:w-3/5 lg:ms-6 lg:p-4">
+                    <i class="ri-nft-line text-xl lg:text-2xl"></i>
+                    <span class="text-justify ms-4 text-sm md:w-4/5 md:font-medium lg:text-lg lg:w-3/5 lg:font-medium">
+                        From our
+                        favourite UK influencers to the best missives from Milan and the coolest New Yorks. read on
+                        some.</span>
+                </p>
+                <button
+                    class="text-xs font-semibold bg-black text-white px-4 py-3 rounded-full lg:w-1/6 lg:px-6 lg:py-4 lg:text-sm">View
+                    All Products</button>
+            </div>
+            <div class="center flex flex-wrap p-2 gap-2 md:gap-3 md:p-3 lg:gap-4 lg:p-4">
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    New</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Shirt</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Cap</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Shorts</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Shoe</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Hoodie</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Watch</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Glasses</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Swift suit</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Casual</h4>
+                <h4
+                    class="bg-transparent hover:bg-black hover:text-white hover:border border-black cursor-pointer text-black font-semibold w-fit border border-black px-5 py-2 rounded-full text-xs md:text-sm md:px-6 lg:text-lg lg:px-8">
+                    Top collection</h4>
+            </div>
+            <div class="bottom w-full gap-4 h-full flex flex-col md:flex-row lg:flex-row">
+                <div class="image1 relative w-full h-3/5 md:w-full md:h-4/5 lg:w-full lg:h-4/5">
+                    <img class="w-full h-96 object-cover rounded-3xl md:h-full lg:h-4/5"
+                        src="https://images.unsplash.com/photo-1630328310284-9da25e12abe4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="boy_fashion">
+                    <!-- <img src="https://i.pinimg.com/564x/59/2f/b5/592fb5acc59d79e98775b843805f6c3a.jpg" alt="boy_with_cap">
+                    <img src="https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="girl_fashion"> -->
+                    <div class="image-bottom font-semibold rounded-3xl p-2 mt-1 text-xl md:text-lg lg:text-xl">
+                        <h4>Brown Jacket with white shirt</h4>
+                        <h5 class="text-lg text-red-700 mt-1 md:text-sm lg:text-lg">132.00 USD</h5>
+                    </div>
+                    <h4
+                        class="bg-transparent absolute top-8 left-5 text-black font-semibold w-fit border border-black px-4 py-1 rounded-full text-xs md:top-3 md:left-3 md:text-xs md:px-4 lg:top-6 lg:left-6 lg:text-lg lg:px-8">
+                        New</h4>
+                </div>
+                <div class="image2 relative w-full h-3/5 md:w-full md:h-4/5 md:m-0 lg:m-0 lg:w-full lg:h-4/5">
+                    <img class="rounded-3xl h-96 w-full h-full object-cover md:h-full lg:h-4/5"
+                        src="https://i.pinimg.com/564x/59/2f/b5/592fb5acc59d79e98775b843805f6c3a.jpg"
+                        alt="boy_with_cap">
+                    <div class="image-bottom font-semibold rounded-3xl p-2 mt-1 text-xl md:text-lg lg:text-xl">
+                        <h4>Brown Jacket with white shirt</h4>
+                        <h5 class="text-lg text-red-700 mt-1 md:text-sm lg:text-lg">132.00 USD</h5>
+                    </div>
+                    <h4
+                        class="bg-transparent absolute top-8 left-5 text-white font-semibold w-fit border border-white px-4 py-1 rounded-full text-xs md:top-3 md:left-3 md:text-xs md:px-4 lg:top-6 lg:left-6 lg:text-lg lg:px-8">
+                        Cutfit</h4>
+                </div>
+                <div class="image3 relative w-full h-3/5 md:w-full md:h-4/5 md:m-0 lg:m-0 lg:w-full lg:h-4/5">
+                    <img class="rounded-3xl w-full h-96 object-cover md:h-full lg:h-4/5"
+                        src="https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_fashion">
+                    <div class="image-bottom font-semibold rounded-3xl p-2 mt-1 text-xl md:text-lg lg:text-xl">
+                        <h4>Brown Jacket with white shirt</h4>
+                        <h5 class="text-lg text-red-700 mt-1 md:text-sm lg:text-lg">132.00 USD</h5>
+                    </div>
+                    <h4
+                        class="bg-transparent absolute top-8 left-5 text-black font-semibold w-fit border border-black px-4 py-1 rounded-full text-xs md:top-3 md:left-3 md:text-xs md:px-4 lg:top-6 lg:left-6 lg:text-lg lg:px-8">
+                        Trendy</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page3 w-full h-screen mt-10 md:mt-96 lg:mt-44">
+            <div
+                class="w-full h-4/6 flex flex-col gap-6 md:h-5/6 md:flex-row md:justify-center md:items-start lg:h-4/5 lg:flex-row lg:justify-center lg:items-center">
+                <div
+                    class="image1 relative w-full h-3/6 overflow-hidden rounded-3xl flex justify-start items-center bg-gradient-to-tl from-pink-400 to-blue-100 md:h-5/6 lg:h-4/6">
+                    <div class="content w-1/2 p-6 font-semibold flex flex-col gap-3 absolute bottom-0">
+                        <h4
+                            class="w-4/6 bg-black text-white px-2 py-2 text-center rounded-full text-xs lg:text-lg lg:w-3/6">
+                            $86.00 USD</h4>
+                        <p
+                            class="text-sm leading-tight tracking-tight lg:text-3xl lg:font-semibold md:leading-tight md:tracking-tight lg:leading-tight lg:tracking-tighter">
+                            New Store Launch: <br>We Make People Smart</p>
+                    </div>
+                    <img class="w-1/2 h-fit object-cover absolute rounded-full p-1 right-0 md:w-3/6 lg:w-2/5"
+                        src="https://i.pinimg.com/564x/b4/d2/96/b4d2969f16c2049bc8a08170675e0fcc.jpg" alt="couple_suit">
+                </div>
+                <div
+                    class="image1 relative w-full h-3/6 overflow-hidden rounded-3xl flex justify-start items-center bg-gradient-to-tl from-green-500 to-violet-100 md:h-5/6 lg:h-4/6">
+                    <div class="content w-1/2 p-6 font-semibold flex flex-col gap-3 absolute bottom-0">
+                        <h4
+                            class="w-4/6 bg-black text-white px-2 py-2 text-center rounded-full text-xs lg:text-lg lg:w-3/6">
+                            $86.00 USD</h4>
+                        <p
+                            class="text-sm leading-tight tracking-tight lg:text-3xl lg:font-semibold md:leading-tight md:tracking-tight lg:leading-tight lg:tracking-tighter">
+                            New Store Launch: <br>We Make People Smart</p>
+                    </div>
+                    <img class="w-1/2 h-fit object-cover absolute rounded-full p-1 right-0 md:w-3/6 lg:w-2/5"
+                        src="https://i.pinimg.com/564x/be/6c/2a/be6c2a1a3eab025a745feeaac67e961f.jpg" alt="couple_suit">
+                </div>
+            </div>
+            <div
+                class="content w-full flex flex-col gap-6 text-center h-1/6 pt-8 md:gap-16 md:flex-row md:justify-between items-start md:text-start lg:gap-16">
+                <h2
+                    class="text-2xl font-medium md:w-3/5 lg:text-6xl lg:w-3/6 md:leading-tight md:tracking-tighter lg:leading-tight lg:tracking-tighter">
+                    Real Design by Real Artists for Real People</h2>
+                <div class="right-content text-sm font-medium flex flex-col gap-4 md:w-3/5 lg:w-2/5 lg:gap-8">
+                    <p class="lg:text-lg">From our favourite UK influencers to the best missives from Milan and the
+                        coolest New Yorkers. read on some.</p>
+                    <button
+                        class="bg-black text-white px-4 py-3 rounded-full text-center w-3/6 self-center md:self-center lg:self-start lg:w-2/6 lg:py-4 lg:text-sm">Browse
+                        All Product</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="page4 w-full h-full bg-gray-400 p-2 lg:mt-24">
+
+            <div id="scroll-image" class="scroll bg-orange-200 md:w-full md:h-4/6 lg:w-full lg:h-full">
+                <div
+                    class="image w-2/5 h-full relative rounded-3xl md:w-3/5 md:h-full lg:w-3/5 lg:h-full">
+                    <img class=" object-center object-cover md:object-top md:hidden lg:hidden lg:object-top"
+                        src="https://plus.unsplash.com/premium_photo-1708276242909-d68d76dd35c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_img">
+                    <img class="w-full h-full object-center hidden object-cover md:object-top md:block lg:block lg:object-top"
+                        src="https://images.unsplash.com/photo-1510678960173-b52e15cbcfb4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="women_img">
+                    <button class="absolute bottom-1 left-6 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                        Outfit</button>
+                </div>
+                <div
+                    class="image w-3/5 h-full relative rounded-3xl md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                    <img class="w-full h-full object-center object-cover"
+                        src="https://images.unsplash.com/photo-1676989633468-7e16fb0d8ef3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_img">
+                    <button class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                        Outfit</button>
+                </div>
+                <div
+                    class="image w-full h-full relative rounded-3xl md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                    <img class="w-full h-full object-center object-cover "
+                        src="https://images.unsplash.com/photo-1614028609503-590a6a47146a?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_group">
+                    <button class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                        Outfit</button>
+                </div>
+                <div
+                    class="image w-3/5 h-full relative rounded-3xl md:w-3/5 md:h-full lg:w-3/5 lg:h-full">
+                    <img class="w-full h-full object-center object-cover md:hidden lg:hidden "
+                        src="https://images.unsplash.com/photo-1676694047708-1ca814f7e220?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_img">
+                    <img class="w-full h-full hidden object-center object-cover md:block lg:block "
+                        src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_img">
+                    <button class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                        Outfit</button>
+                </div>
+                <div
+                    class="image w-2/5 h-full ms-4 relative rounded-3xl overflow-hidden md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                    <img class="w-full h-full object-center object-cover "
+                        src="https://images.unsplash.com/photo-1692459411784-98fe200a437a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="girl_img">
+                    <button class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                        Outfit</button>
+                </div>
+            </div> -->
+
+        <!-- <div
+                    class="scroll-image bg-blue-100 w-full h-full inline-block md:w-full md:h-4/6 lg:w-full lg:h-4/6">
+                    <div
+                        class="image w-2/5 h-full relative rounded-3xl overflow-hidden inline-block md:w-3/5 md:h-full lg:w-3/5 lg:h-full">
+                        <img class="w-full h-full object-center object-cover md:object-top md:hidden lg:hidden lg:object-top"
+                            src="https://plus.unsplash.com/premium_photo-1708276242909-d68d76dd35c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_img">
+                        <img class="w-full h-full object-center hidden object-cover md:object-top md:block lg:block lg:object-top"
+                            src="https://images.unsplash.com/photo-1510678960173-b52e15cbcfb4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="women_img">
+                        <button
+                            class="absolute bottom-1 left-6 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                            Outfit</button>
+                    </div>
+                    <div
+                        class="image w-3/5 h-full ms-4 relative rounded-3xl overflow-hidden inline-block md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                        <img class="w-full h-full object-center object-cover"
+                            src="https://images.unsplash.com/photo-1676989633468-7e16fb0d8ef3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_img">
+                        <button
+                            class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                            Outfit</button>
+                    </div>
+                    <div
+                        class="image w-full h-full ms-4 relative rounded-3xl overflow-hidden inline-block md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                        <img class="w-full h-full object-center object-cover "
+                            src="https://images.unsplash.com/photo-1614028609503-590a6a47146a?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_group">
+                        <button
+                            class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                            Outfit</button>
+                    </div>
+                    <div
+                        class="image w-3/5 h-full ms-4 relative rounded-3xl overflow-hidden inline-block md:w-3/5 md:h-full lg:w-3/5 lg:h-full">
+                        <img class="w-full h-full object-center object-cover md:hidden lg:hidden "
+                            src="https://images.unsplash.com/photo-1676694047708-1ca814f7e220?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_img">
+                        <img class="w-full h-full hidden object-center object-cover md:block lg:block "
+                            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_img">
+                        <button
+                            class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                            Outfit</button>
+                    </div>
+                    <div
+                        class="image w-2/5 h-full ms-4 relative rounded-3xl overflow-hidden inline-block md:w-2/6 md:h-full lg:w-2/6 lg:h-full">
+                        <img class="w-full h-full object-center object-cover "
+                            src="https://images.unsplash.com/photo-1692459411784-98fe200a437a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="girl_img">
+                        <button
+                            class="absolute top-3 right-3 bg-black text-white px-3 py-2 rounded-full text-xs">Vacation
+                            Outfit</button>
+                    </div>
+                </div> -->
+        <!-- </div> -->
+        
+        <!--    
+        <div id="page4">
+            <div class="scroll">
+                <img src="https://cdn.dribbble.com/uploads/47173/original/Vladimir_Gruev.png?1689174896&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <img src="https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <img src="https://cdn.dribbble.com/uploads/47171/original/daniele-buffa-3.png?1689174763&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <video autoplay loop muted
+                    src="https://cdn.dribbble.com/uploads/47181/original/1e3a73a174484bef522b620c401cd00a.mp4?1685645427"></video>
+                <img src="https://cdn.dribbble.com/uploads/47172/original/d85ae8c7db2421e9a01ecac942978d4b.png?1685645079&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <img src="https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <video autoplay loop muted
+                    src="https://cdn.dribbble.com/uploads/47179/original/35d07cfebd303e05e688078015da0cc2.mp4?1685645373"></video>
+                <img src="https://cdn.dribbble.com/uploads/47178/original/mercedes-bazan.png?1689174566&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <img src="https://cdn.dribbble.com/uploads/47177/original/3986915be548424a5d36657f2b034ead.jpeg?1685645250&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <video autoplay loop muted
+                    src="https://cdn.dribbble.com/uploads/47180/original/1def7b9fb30832c4af4353b325d9c3af.mp4?1685645402"></video>
+                <img src="https://cdn.dribbble.com/uploads/47176/original/9b22cd83bde1809976bec0722d1f8923.jpeg?1685645213&format=webp&resize=218x272&vertical=center"
+                    alt="">
+                <img src="https://cdn.dribbble.com/uploads/47175/original/1fb34610061a95a007ac5e7b1dc53138.jpeg?1685645183&format=webp&resize=218x272&vertical=center"
+                    alt="">
+            </div>
+        </div> -->
+
+        <div
+            class="page5 w-full h-fit flex flex-col justify-center items-center mt-0 md:w-full md:h-screen lg:w-full lg:h-screen md:mt-40 lg:mt-40">
+            <div
+                class="box w-full h-fit flex flex-col overflow-hidden rounded-3xl bg-gradient-to-tl from-violet-900 to-green-100 md:w-full md:h-screen md:flex-row-reverse md:overflow-hidden lg:overflow-hidden lg:flex-row-reverse lg:w-full lg:h-screen">
+                <img class="w-full h-1/2 object-cover object-center md:w-3/5 rounded-full md:h-full lg:w-3/5 lg:h-full"
+                    src="https://i.pinimg.com/564x/f4/31/ad/f431addab60686590c5c7b3c8791da05.jpg" alt="couple_img">
+                <div
+                    class="w-full h-fit p-4 image-content text-center flex flex-col justify-center items-center gap-4 md:gap-4 md:w-2/5 md:h-full md:justify-end md:items-start md:tracking-tight lg:tracking-tighter lg:gap-8 lg:w-2/5 lg:h-full">
+                    <h2 class="text-2xl w-4/5 font-semibold leading-7 md:w-full lg:text-4xl lg:w-full">Grab Exciting
+                        Deals and Special Promos Today</h2>
+                    <div class="w-full md:flex md:justify-center md:items-center lg:justify-center lg:items-center">
+                        <button
+                            class="w-2/5 font-medium bg-black inline-block self-center text-white px-2 py-3 text-xs rounded-full md:w-3/5 lg:text-sm lg:py-4 lg:w-3/6">Enter
+                            Email Address</button>
+                        <i
+                            class="ri-arrow-right-up-line hidden animate-bounce ms-4 bg-white text-black p-2 rounded-full md:block lg:block md:p-2 md:px-3 lg:p-3 lg:px-4"></i>
+                        <i
+                            class="ri-arrow-up-line ms-4 bg-white animate-pulse text-black p-3 rounded-full md:hidden lg:hidden"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="page6 w-full h-screen relative rounded-3xl bg-gradient-to-tl from-violet-200 to-green-100 mt-16 flex justify-center items-center lg:mt-32">
+            <div class="content flex flex-col gap-4 justify-center items-center text-center lg:gap-10">
+                <h2 class="text-2xl font-semibold md:text-4xl md:w-4/6 lg:font-bold lg:text-6xl lg:w-4/6 lg:font-bold">
+                    Elevate your look with our outstanding collection</h2>
+                <button
+                    class="bg-black text-white px-3 py-2 rounded-full text-xs lg:text-lg lg:font-medium lg:px-8 lg:py-3">Browse
+                    collection</button>
+            </div>
+            <img class="w-2/6 bg-red-500 h-1/6 absolute object-cover object-top top-0 left-4 rounded-3xl md:w-32 md:h-32 md:top-6 md:left-10 lg:w-44 lg:h-44 lg:top-24 lg:left-20"
+                src="https://i.pinimg.com/564x/ec/e7/88/ece788c710a8fbd2676c295c443db015.jpg" alt="boy_img">
+            <img class="w-40 bg-blue-500 h-40 absolute object-cover object-top top-28 right-4 rounded-3xl md:w-36 md:h-40 md:top-8 md:right-8 lg:w-44 lg:h-44 lg:w-52 lg:h-60 lg:top-20 lg:right-16"
+                src="https://i.pinimg.com/564x/05/7d/53/057d539cb9d6ce82bf2040a23d8ef29d.jpg " alt="boy&girl_img">
+
+            <!-- <video src="blob:https://in.pinterest.com/7c2cc09f-a6d3-4490-ae07-3563532857a6"></video> -->
+            <img class="w-40 bg-blue-500 h-40 absolute object-cover object-center bottom-28 left-4 rounded-3xl md:w-36 md:h-40 md:bottom-4 md:left-20 lg:w-44 lg:h-44 lg:w-52 lg:h-60 lg:bottom-28 lg:left-40"
+                src="https://i.pinimg.com/564x/5c/b5/b3/5cb5b36084a07b4e23d511805e2e8850.jpg" alt="modal_img">
+            <img class="w-2/6 bg-red-500 h-1/6 absolute object-cover object-top bottom-0 right-4 rounded-3xl md:w-32 md:h-32 md:bottom-2 md:right-36 lg:w-44 lg:h-44 lg:bottom-28 lg:right-44"
+                src="https://i.pinimg.com/564x/87/e1/59/87e159cb1d4ec12c6a59b3e5a0dd21b6.jpg" alt="girl_img">
+        </div>
+
+        <footer
+            class="page7 w-full h-full mt-16 rounded-3xl bg-gradient-to-tl from-violet-200 to-green-100 pt-6 md:p-6 md:h-full md:flex lg:p-6 lg:h-full lg:flex lg:mt-32">
+            <div
+                class="left flex flex-col justify-center items-center md:justify-between md:items-start md:ps-8 md:p-4 md:pb-6 md:w-2/6 md:h-100 lg:ps-20 lg:p-6 lg:w-2/6 lg:h-100 lg:justify-between lg:items-start">
+                <div class="top flex flex-col justify-between md:items-start md:gap-3 lg:items-start lg:gap-3">
+                    <h2 class="text-2xl font-semibold md:text-2xl lg:text-3xl">
+                        <a href="#"><i class="ri-exchange-2-fill"></i>Craze</a>
+                    </h2>
+                    <div class="social-links hidden flex gap-3 text-xl md:block md:text-xl lg:block lg:text-2xl">
+                        <i class="ri-facebook-circle-line"></i>
+                        <i class="ri-twitter-x-fill"></i>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-box-fill"></i>
+                        <i class="ri-youtube-line"></i>
+                    </div>
+                </div>
+                <div class="bottom hidden md:block lg:block">
+                    <p class="md:text-xs lg:font-medium">©Copyright 2024</p>
+                    <p class="md:text-sm lg:text-lg lg:font-semibold">Created by <span class="font-semibold">Solution
+                            Digital</span></p>
+                </div>
+            </div>
+
+            <div
+                class="border hidden border-slate-300 h-80 md:block md:h-72 md:m-2 lg:m-2 lg:block flex flex-col self-center">
+            </div>
+
+            <div
+                class="right w-full h-full flex flex-col pt-4 ps-4 pe-4 gap-3 md:justify-between md:items-start md:gap-8 md:ps-12 md:gap-2 md:w-4/6 lg:gap-8 lg:ps-32 lg:gap-2 lg:w-4/6">
+                <div
+                    class="top w-full h-1/2 flex justify-between md:justify-between md:items-start lg:justify-between lg:items-start">
+                    <div class="right flex hidden flex-col gap-1 md:flex md:gap-2 lg:flex lg:gap-3">
+                        <h4 class="text-base font-semibold lg:text-xl lg:font-semibold">Offices</h4>
+                        <div class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800">
+                            <a href="#">San Diego - CA</a>
+                            <a href="#">New York - NY</a>
+                            <a href="#">Bay Area - CA</a>
+                            <a href="#">Amsterdam - NL</a>
+                            <a href="">London - EN</a>
+                        </div>
+                    </div>
+                    <div class="center flex flex-col gap-1 inline-block md:gap-2 lg:gap-3">
+                        <h4 class="text-base font-semibold lg:text-xl lg:font-semibold">Craze</h4>
+                        <div class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800">
+                            <a href="#">About us</a>
+                            <a href="#">Delivery Inforamtion</a>
+                            <a href="#">Exchange Policy</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="">Career</a>
+                        </div>
+                    </div>
+
+                    <div class="left gap-1 inline-block md:gap-2 lg:inline lg:flex lg:flex-col lg:gap-3">
+                        <h4 class="text-base font-semibold text-base font-semibold lg:text-xl lg:font-semibold">Top
+                            Categories</h4>
+                        <div
+                            class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800 lg:flex lg:flex-col">
+                            <a href="#">Contact lenses</a>
+                            <a href="#">Sunglasses for Men</a>
+                            <a href="#">Sunglasses for Women</a>
+                            <a href="#">Colored Contact Lense</a>
+                            <a href="">Glasess</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right flex flex-col gap-1 md:gap-2 md:hidden lg:hidden lg:gap-3">
+                    <h4 class="text-base font-semibold lg:text-xl lg:font-semibold">Offices</h4>
+                    <div class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800">
+                        <a href="#">San Diego - CA</a>
+                        <a href="#">New York - NY</a>
+                        <a href="#">Bay Area - CA</a>
+                        <a href="#">Amsterdam - NL</a>
+                        <a href="">London - EN</a>
+                    </div>
+                </div>
+                <div class="bottom w-full mb-6 flex justify-between h-1/2 lg:justify-between lg:items-center">
+                    <div class="left flex flex-col gap-1 md:gap-2 lg:gap-3">
+                        <h4 class="text-base font-semibold lg:text-xl lg:font-semibold">Services</h4>
+                        <div class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800">
+                            <a href="#">Store Location</a>
+                            <a href="#">Enter My Power</a>
+                            <a href="#">Buying Guide</a>
+                            <a href="#">Frame Size</a>
+                        </div>
+                    </div>
+                    <div class="right flex flex-col gap-1 md:gap-2 lg:gap-3">
+                        <h4 class="text-base font-semibold lg:text-xl lg:font-semibold">Customer Support</h4>
+                        <div class="links flex flex-col text-sm lg:text-base lg:font-medium lg:text-zinc-800">
+                            <a href="#">Return & Exchanges</a>
+                            <a href="#">Shipping & Delivery</a>
+                            <a href="#">Limited Warranty</a>
+                            <a href="#">Help Center</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links flex justify-center gap-3 text-xl md:hidden lg:hidden">
+                    <a href="https://facebook.com"><i class="ri-facebook-circle-line"></i></a>
+                    <a href="https://twitter.com"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="https://instagram.com"><i class="ri-instagram-line"></i></a>
+                    <a href="https://linkedin.com"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://youtube.com"><i class="ri-youtube-line"></i></a>
+                </div>
+                <div
+                    class="bottom flex flex-col text-center md:text-start lg:text-start text-sm block md:hidden lg:hidden">
+                    <p>©Copyright 2024</p>
+                    <p class="text-base">Created by <span class="font-semibold">Solution Digital</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

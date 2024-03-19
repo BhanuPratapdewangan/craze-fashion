@@ -1,0 +1,49 @@
+
+/* Page4 */
+#page4 {
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    position: relative;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#page4 .scroll {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: lightseagreen; */
+    /* position:absolute; */
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: nowrap;
+    animation: 5s scrollable infinite linear;
+}
+
+#page4 img,
+video {
+    width: 20vw;
+    height: 52vh;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25px;
+    border-radius: 10%;
+    transition: all ease 1s;
+}
+
+#page4 video {
+    width: 20vw;
+    height: 52vh;
+}
+
+
+@keyframes scrollable {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 4px));
+    }
+}
